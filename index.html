@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-group">
+            <form action="index.html" method="post">
+
+                <div class="row">
+                    <h2>Dados Pessoais</h2>
+                </div>
+
+                <div>
+                    <label for="nome" class="form-label">Nome</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Meu Nome" id="nome" class="form-control">
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <label for="cpf" class="form-label">CPF</label>
+                        <input type="number" placeholder="000.000.000-00" id="cpf" class="form-control">
+                    </div>
+
+                    <div class="col">
+                        <label for="date" class="form-label">Data Nascimento</label>
+                        <input type="date" id="data" class="form-control">
+                    </div>
+
+                    <div class="col">
+                        <label for="sexo" class="form-label">Sexo</label><br>
+                        <input type="radio" name="Masculino" id="sexo">
+                        <label for="Masculino" class="form-label">Masculino</label>
+                        <input type="radio" name="Feminino" id="sexo">
+                        <label for="Feminino" class="form-label">Feminino</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="estadoCivil" class="form-label">Estado Civil</label>
+                        <select id="estadoCivil" class="form-control">
+                            <option value="solteiro">Solteiro</option>
+                            <option value="solteiro">Casado</option>
+                            <option value="solteiro">Divorciado</option>
+                            <option value="solteiro">Viuvo</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label for="renda" class="form-label">Renda Mensal</label>
+                        <input type="number" placeholder="0,00" id="renda" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>Endereço</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="logra" class="form-label">Logradouro</label>
+                        <input type="text" placeholder="Av. Paulista" id="logra" class="form-control">
+                    </div>
+
+                    <div class="col">
+                        <label for="numero" class="form-label">Número</label>
+                        <input type="number" placeholder="N°" id="numero" class="form-control">
+                    </div>
+
+                    <div class="col">
+                        <label for="complemento" class="form-label">Complemento</label>
+                        <input type="text" placeholder="Casa, Apto, Loja" id="complemento" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="estado" class="form-label">Estado</label>
+                        <select id="estado" class="form-control">
+                            <option value="Acre">Acre</option>
+                            <option value="Acre">Maceió</option>
+                            <option value="Acre">São Paulo</option>
+                            <option value="Acre">Rio de Janeiro</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label for="cidade" class="form-label">Cidade</label>
+                        <input type="text" placeholder="São Paulo" id="cidade" class="form-control">
+                    </div>
+                </div>
+
+                <button class="btn btn-primary">Enviar</button>
+                
+            </form>
+        </div>
+        <div class="row">
+            <a href="https://br.linkedin.com/in/davi-amorim-mendes-022a01307" id="link" target="_blank"><p>(<i class="fa-solid fa-user"></i>) davi.amorim.mendes.082@gmail.com</p></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
